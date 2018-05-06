@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["env", { "modules": "commonjs" }],
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "optimizeForSpeed": false,
+          "plugins": [
+            [
+              "styled-jsx-plugin-sass", {
+              "sassOptions": {
+                "precision": 8,
+              }
+            }],
+          ]
+        }
+      }
+    ]
+  ]
+}
