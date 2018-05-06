@@ -20,6 +20,6 @@
     "react-dom": "^16.3.2",
     "styled-jsx": "^2.2.6",
     "styled-jsx-plugin-sass": "^0.2.4",
-    "test-styled-jsx-comps-library": "^0.0.1"
+    "test-styled-jsx-comps-library": "^0.0.2"
   }
 }

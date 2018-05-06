@@ -10,6 +10,7 @@
             [
               "styled-jsx-plugin-sass", {
               "sassOptions": {
+                "includePaths": ["./node_modules/test-styled-jsx-comps-library/styles/"],
                 "precision": 8,
               }
             }],
